@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3262316cd25924d47a5a6ccc728fd666
+timeCreated: 1533452064
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Deers/Deer Family/Deer_Stag/fbx/Deer_Stag_DemoAnimator_IP.controller
+  uploadId: 301504

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 1778cad642e5e574098a50a7caaedda3
+timeCreated: 1533455661
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Wolf_Family/Wolf_Cub/scripts/Demo_Animator_WolfCub.cs
+  uploadId: 301504

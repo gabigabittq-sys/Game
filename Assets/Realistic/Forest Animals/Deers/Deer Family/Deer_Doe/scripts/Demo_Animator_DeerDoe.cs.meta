@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3f0837d8d3b32164ea1284c74801703c
+timeCreated: 1533455661
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Deers/Deer Family/Deer_Doe/scripts/Demo_Animator_DeerDoe.cs
+  uploadId: 301504

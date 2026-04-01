@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bc96436d5b5be0b45ae1f1d599a41d01
+timeCreated: 1533484780
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Boar_Family/Boar_Female/prefabs/Boar_Female_Mobile_RM.prefab
+  uploadId: 301504

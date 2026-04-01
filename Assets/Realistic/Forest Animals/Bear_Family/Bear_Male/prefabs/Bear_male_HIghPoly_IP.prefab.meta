@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 46eb7b0186053f644b2ff832ae9abc07
+timeCreated: 1542443984
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Bear_Family/Bear_Male/prefabs/Bear_male_HIghPoly_IP.prefab
+  uploadId: 301504

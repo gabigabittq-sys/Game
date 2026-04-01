@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a89aaa56952c5b34ea5e5856a350ae1a
+timeCreated: 1542957060
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Bear_Family/Bear_Cub/prefabs/Bear_cub_HighPoly_IP.prefab
+  uploadId: 301504

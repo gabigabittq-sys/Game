@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: eacd1bd54af80a941bda5b3c068c6ad2
+timeCreated: 1551078323
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Fox_Family/Fox_Cub/prefabs/Fox_cub_full_IP.prefab
+  uploadId: 301504

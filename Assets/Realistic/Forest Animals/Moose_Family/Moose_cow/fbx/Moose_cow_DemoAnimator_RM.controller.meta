@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 640a320f3cc24a64b886e31e902d937d
+timeCreated: 1533452064
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Moose_Family/Moose_cow/fbx/Moose_cow_DemoAnimator_RM.controller
+  uploadId: 301504

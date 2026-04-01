@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 28137c1dbe3cb5d4f88f333f084e6f47
+timeCreated: 1533455661
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Bear_Family/Bear_Cub/scripts/Demo_Animator_BearCub.cs
+  uploadId: 301504

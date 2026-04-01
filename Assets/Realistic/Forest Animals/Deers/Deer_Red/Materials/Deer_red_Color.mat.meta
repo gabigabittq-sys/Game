@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6a827ab6c9c60764285f1f5e71eae943
+timeCreated: 1536040838
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Deers/Deer_Red/Materials/Deer_red_Color.mat
+  uploadId: 301504

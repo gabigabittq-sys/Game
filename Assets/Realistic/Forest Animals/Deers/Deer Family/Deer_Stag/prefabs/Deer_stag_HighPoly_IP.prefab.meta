@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fc6f66cf858c81043929fbbad9557b39
+timeCreated: 1536647437
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Deers/Deer Family/Deer_Stag/prefabs/Deer_stag_HighPoly_IP.prefab
+  uploadId: 301504

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9bf4c2dfeac35fa4badb2fd90ea8b5d7
+timeCreated: 1542443990
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Bear_Family/Bear_Male/prefabs/Bear_male_LowPoly_RM.prefab
+  uploadId: 301504

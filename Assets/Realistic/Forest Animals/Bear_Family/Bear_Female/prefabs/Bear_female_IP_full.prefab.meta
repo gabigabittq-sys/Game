@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3ced3b06ffb4c4c458431d6dce4a55ce
+timeCreated: 1542095787
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Bear_Family/Bear_Female/prefabs/Bear_female_IP_full.prefab
+  uploadId: 301504

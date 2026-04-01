@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b0da48e3928b6744087867282fb5b05a
+timeCreated: 1552398484
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Hare_Family/Hare_Male/prefabs/Hare_male_HighPoly_RM.prefab
+  uploadId: 301504

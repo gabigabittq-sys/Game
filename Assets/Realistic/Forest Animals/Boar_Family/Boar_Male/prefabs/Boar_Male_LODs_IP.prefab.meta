@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 994737e3f0e79c44799ad44ec740d5e1
+timeCreated: 1533477889
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Boar_Family/Boar_Male/prefabs/Boar_Male_LODs_IP.prefab
+  uploadId: 301504

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: bc36470c86fbdb04aafcb8f535bee17a
+timeCreated: 1533455661
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Wolf_Family/Wolf_Male/scripts/Demo_Animator_WolfMale.cs
+  uploadId: 301504

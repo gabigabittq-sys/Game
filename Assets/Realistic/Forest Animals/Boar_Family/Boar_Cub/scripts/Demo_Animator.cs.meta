@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 53d6f12c8f39c9847bf87fd646193843
+timeCreated: 1533455661
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Boar_Family/Boar_Cub/scripts/Demo_Animator.cs
+  uploadId: 301504

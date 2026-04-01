@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0f83b32e2dc72d44fb841a1bbed7530d
+timeCreated: 1544681562
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Wolf_Family/Wolf_Male/Materials/Wolf_male_color1.mat
+  uploadId: 301504

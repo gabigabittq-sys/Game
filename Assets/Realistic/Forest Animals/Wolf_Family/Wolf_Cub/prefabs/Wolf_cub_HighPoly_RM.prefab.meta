@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d89fab6a49c3e5741b0bfac8cd254bc6
+timeCreated: 1545134973
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Wolf_Family/Wolf_Cub/prefabs/Wolf_cub_HighPoly_RM.prefab
+  uploadId: 301504

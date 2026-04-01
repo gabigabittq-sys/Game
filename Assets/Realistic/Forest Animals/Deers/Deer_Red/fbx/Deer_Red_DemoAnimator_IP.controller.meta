@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 621b19096fd6439459eb073cf11b490e
+timeCreated: 1533452064
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Deers/Deer_Red/fbx/Deer_Red_DemoAnimator_IP.controller
+  uploadId: 301504

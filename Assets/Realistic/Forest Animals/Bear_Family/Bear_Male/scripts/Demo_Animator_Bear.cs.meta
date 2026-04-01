@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e72b1e77c743b1a409d06a83d10dd2e7
+timeCreated: 1533455661
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Bear_Family/Bear_Male/scripts/Demo_Animator_Bear.cs
+  uploadId: 301504

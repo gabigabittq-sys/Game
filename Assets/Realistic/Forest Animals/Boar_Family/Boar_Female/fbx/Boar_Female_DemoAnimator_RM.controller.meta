@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5c4eb0f10be4e4d448bc017e37f7e5f8
+timeCreated: 1533452064
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Boar_Family/Boar_Female/fbx/Boar_Female_DemoAnimator_RM.controller
+  uploadId: 301504

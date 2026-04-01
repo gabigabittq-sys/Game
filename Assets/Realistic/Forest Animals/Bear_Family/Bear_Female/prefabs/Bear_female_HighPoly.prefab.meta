@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b3b455b5b4f33a14e8a07a5bd021d795
+timeCreated: 1542095795
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Bear_Family/Bear_Female/prefabs/Bear_female_HighPoly.prefab
+  uploadId: 301504

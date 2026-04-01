@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 38a38a18321fbd8449dc706cf702684a
+timeCreated: 1533477260
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Boar_Family/Boar_Male/prefabs/Boar_Male_Lowpoly_RM.prefab
+  uploadId: 301504

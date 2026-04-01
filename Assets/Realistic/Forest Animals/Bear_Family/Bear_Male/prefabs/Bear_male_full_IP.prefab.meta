@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4e500d574d91bf64d9cd12691fc87c25
+timeCreated: 1542443982
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Bear_Family/Bear_Male/prefabs/Bear_male_full_IP.prefab
+  uploadId: 301504

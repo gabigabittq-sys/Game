@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f41e48f5be3741a459729bebf54869b7
+timeCreated: 1536858090
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Deers/Deer Family/Deer_Doe/prefabs/Deer_doe_LODs_IP.prefab
+  uploadId: 301504

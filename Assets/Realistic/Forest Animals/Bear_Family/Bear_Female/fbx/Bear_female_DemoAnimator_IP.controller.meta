@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fb93925b6abdd6a40950b5b94a874f47
+timeCreated: 1533452064
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Bear_Family/Bear_Female/fbx/Bear_female_DemoAnimator_IP.controller
+  uploadId: 301504

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 686cc2cb0f2f4a448834f123153e19be
+timeCreated: 1552978177
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Hare_Family/Hare_Cub/prefabs/Hare_cub_LowPoly_IP.prefab
+  uploadId: 301504

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c64fb2bc4babe3a42ab9aae1dcae1b49
+timeCreated: 1533452064
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Boar_Family/Boar_Male/fbx/Boar_Male_DemoAnimator_RM.controller
+  uploadId: 301504

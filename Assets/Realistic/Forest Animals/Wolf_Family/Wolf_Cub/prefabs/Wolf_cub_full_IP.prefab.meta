@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2f4c9a6790813874fad05ef1eb8a9d87
+timeCreated: 1545158216
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 142554
+  packageName: Forest animals
+  packageVersion: 1.0
+  assetPath: Assets/Realistic/Forest Animals/Wolf_Family/Wolf_Cub/prefabs/Wolf_cub_full_IP.prefab
+  uploadId: 301504
