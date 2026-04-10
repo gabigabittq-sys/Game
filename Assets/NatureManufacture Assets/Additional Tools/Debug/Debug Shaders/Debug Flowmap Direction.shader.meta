@@ -9,8 +9,8 @@ ShaderImporter:
   - unity_LightmapsInd: {instanceID: 0}
   - unity_ShadowMasks: {instanceID: 0}
   nonModifiableTextures:
-  - _TexelSize_18bb9f416e386f87bee91aa46804bc56_Texture_1: {instanceID: 0}
-  preprocessorOverride: 0
+  - _TexelSize_57755b34c5a74f3985dd7a4eae03b858_Texture_1_Texture2D: {instanceID: 0}
+  - _TexelSize_18bb9f416e386f87bee91aa46804bc56_Texture_1_Texture2D: {instanceID: 0}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

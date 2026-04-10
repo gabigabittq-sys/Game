@@ -1,31 +1,20 @@
 using UnityEngine;
+using System; // Required for Action
 
-public partial class Collectible : MonoBehaviour
+public class Collectible : MonoBehaviour
 {
-    // Adjust rotation speed in the Inspector
-    public Vector3 rotationAngle = new Vector3(0, 100, 0);
-
-    void Update()
-    {
-        // Makes the item spin so it looks "pick-up-able"
-        transform.Rotate(rotationAngle * Time.deltaTime);
-    }
+    // This is the "shout" other scripts can listen for
+    public static event Action OnBagCollected;
 
     private void OnTriggerEnter(Collider other)
     {
-        // Check if the object hitting the coin is the Player
         if (other.CompareTag("Player"))
         {
-            Pickup();
+            // Trigger the event
+            OnBagCollected?.Invoke();
+            
+            // Destroy the bag
+            Destroy(gameObject);
         }
-    }
-
-    void Pickup()
-    {
-        // Tell the GameManager to increase the score
-        GameManager.instance.AddScore(1);
-
-        Debug.Log("Item Picked Up!");
-        Destroy(gameObject);
     }
 }

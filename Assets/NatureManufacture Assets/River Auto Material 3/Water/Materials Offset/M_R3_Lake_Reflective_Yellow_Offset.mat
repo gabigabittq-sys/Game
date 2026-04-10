@@ -43,13 +43,12 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _USE_CAUSTIC
-  - _UVVDIRECTION1UDIRECTION0_ON
-  m_InvalidKeywords:
   - _SPECULAR_SETUP
   - _SURFACE_TYPE_TRANSPARENT
+  - _USE_CAUSTIC
+  m_InvalidKeywords: []
   m_LightmapFlags: 1
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap:
@@ -59,7 +58,6 @@ Material:
   - TransparentDepthPostpass
   - TransparentBackface
   - RayTracingPrepass
-  - MOTIONVECTORS
   - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
@@ -275,7 +273,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - BackfaceAlpha: 1
     - Big_Cascade_Foam_Falloff: 0.7
     - MacroWaveTessScale: 0.03
     - _AOPower: 1
@@ -419,6 +416,7 @@ Material:
     - _MicrowaveScale: 0.5
     - _NMFoamSmoothness: 0
     - _NMWaterSmoothness: 0.95
+    - _NMWaterSmoothness_far: 0.9
     - _NM_SSSSettings_Water_RAM: 3.35746
     - _Noise_Flow_UV_Refresh_Speed: 1
     - _NormalScale: 0.25
@@ -441,7 +439,7 @@ Material:
     - _ShalowFalloffMultiply: 0.6
     - _ShalowFalloffPower: 1.66
     - _Shore_Translucency_Multiply: 1
-    - _Shore_Translucency_Power: 0.1
+    - _Shore_Translucency_Power: 0.15
     - _Side_Foam_Flow_UV_Refresh_Speed: 0.1
     - _Side_Foam_Normal_Scale: 0.6
     - _Side_Foam_Specular: 0.19
@@ -477,6 +475,13 @@ Material:
     - _Smoothness: 0.9
     - _Specular: 0.1
     - _SpecularHighlights: 1
+    - _Specular_Depth: 5
+    - _Specular_Depth_Blend: 1
+    - _Specular_Distance: 60
+    - _Specular_Distance_Blend: 4
+    - _Specular_Fresnel_Power: 4
+    - _Specular_Max: 1
+    - _Specular_Min: 0.04
     - _SrcBlend: 5
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -506,7 +511,12 @@ Material:
     - _TessellationShapeFactor: 0.75
     - _ToggleSwitch1: 0
     - _Translucency_Direct_Sun_Power: 5
-    - _Translucency_Global_Power: 1.5
+    - _Translucency_Global_Power: 1
+    - _Translucency_Global_Waves_Power: 1.3
+    - _Translucency_Selfshadow_Reduction: 0
+    - _Translucency_Selfshadow_Reduction_Smooth: 0.65
+    - _Translucency_Shadow_Reduction: 1
+    - _Translucency_Thickness: 0.7
     - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
@@ -522,7 +532,6 @@ Material:
     - _UseFlowMapping: 1
     - _UseFlowMapping1: 1
     - _UseShadowThreshold: 0
-    - _Use_Caustic: 1
     - _Vdirection: 0
     - _VertexOffsetScale: 0.1
     - _WaterAlphaMultiply: 0.2
@@ -550,10 +559,10 @@ Material:
     - _WaterTransparency: 0
     - _Water_Specular_Close: 0.06
     - _Water_Specular_Far: 0.255
-    - _WaveTranslucencyFallOffDistance: 30
+    - _WaveTranslucencyFallOffDistance: 150
     - _WaveTranslucencyHardness: 0.45
-    - _WaveTranslucencyMultiply: 0.05
-    - _WaveTranslucencyPower: 6.94
+    - _WaveTranslucencyMultiply: 0.3
+    - _WaveTranslucencyPower: 0.94
     - _Waver_Noise_Power: 5
     - _WavesVertexOffsetALPHA: 0
     - _WorkflowMode: 0
@@ -566,7 +575,6 @@ Material:
     - __dirty: 0
     - _test: 0.35
     m_Colors:
-    - WindMicroWaveTiling: {r: 0, g: 0, b: 0, a: 0}
     - _BigCascadeColor: {r: 3, g: 3, b: 3, a: 0}
     - _BigCascadeMainSpeed: {r: 1, g: 1, b: 0, a: 0}
     - _BigCascadeMixSpeed: {r: 0.002, g: 0.2, b: 0, a: 0}
@@ -592,7 +600,6 @@ Material:
     - _Gerstner_Wave_Noise_Speed: {r: 3, g: 3, b: 0, a: 0}
     - _Gerstner_Wave_Noise_Tiling: {r: 2, g: 2, b: 0, a: 0}
     - _MacroWaveTiling: {r: 0.05, g: 0.05, b: 0, a: 0}
-    - _MainWaterSpeed: {r: 0.3, g: 0.3, b: 0, a: 0}
     - _MicroNRMTiling: {r: 20, g: 20, b: 0, a: 0}
     - _MicroNormalTiling: {r: 0, g: 0, b: 0, a: 0}
     - _MicroNormalsTiling: {r: 20, g: 20, b: 0, a: 0}
@@ -617,6 +624,8 @@ Material:
     - _SmallCascadeTiling: {r: 4, g: 4, b: 0, a: 0}
     - _Small_Cascade_Foam_Tiling: {r: 20, g: 20, b: 0, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Translucency_Color: {r: 0.27473775, g: 0.31132054, b: 0.16862732, a: 0}
     - _WaterMainSpeed: {r: 0.3, g: 0.3, b: 0, a: 0}
     - _WaterMixSpeed: {r: 0.002, g: 0.002, b: 0, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

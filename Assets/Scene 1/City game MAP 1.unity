@@ -15,11 +15,11 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.3019608, g: 0.35686275, b: 0.33614492, a: 1}
-  m_FogMode: 2
-  m_FogDensity: 0
-  m_LinearFogStart: 300
-  m_LinearFogEnd: 600
+  m_FogColor: {r: 0.3962264, g: 0.33828765, b: 0.33828765, a: 1}
+  m_FogMode: 1
+  m_FogDensity: 0.001
+  m_LinearFogStart: 476.6
+  m_LinearFogEnd: 757.01
   m_AmbientSkyColor: {r: 0.9485137, g: 0.96253115, b: 0.990566, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 1405072}
   - component: {fileID: 1405071}
   - component: {fileID: 1405070}
+  - component: {fileID: 1405074}
   m_Layer: 0
   m_Name: NPC Blob 1
   m_TagString: Untagged
@@ -148,8 +149,8 @@ Transform:
   m_GameObject: {fileID: 1405068}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.3228362, z: -0, w: 0.9464548}
-  m_LocalPosition: {x: -56.7511, y: -3.5400085, z: -125.77841}
-  m_LocalScale: {x: 2.8826976, y: 2.8826976, z: 2.8826976}
+  m_LocalPosition: {x: -56.769, y: -3.5400085, z: -125.79}
+  m_LocalScale: {x: 2.2201672, y: 2.2201672, z: 2.2201672}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 750584204}
@@ -248,6 +249,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1405068}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1405074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135975f9b702db8418c9940579385d1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TextureFlipper
+  textureA: {fileID: 2800000, guid: 9f14074d67099574186314921f110d7c, type: 3}
+  textureB: {fileID: 2800000, guid: 80fa40187ba51014ea77c9a553052835, type: 3}
 --- !u!1 &11232187
 GameObject:
   m_ObjectHideFlags: 0
@@ -6582,6 +6597,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &72695564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72695560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0546d16f3966b51449637ed02222911d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TextureSwitcher
 --- !u!1 &84489321
 GameObject:
   m_ObjectHideFlags: 0
@@ -8161,6 +8188,7 @@ GameObject:
   - component: {fileID: 193868751}
   - component: {fileID: 193868750}
   - component: {fileID: 193868749}
+  - component: {fileID: 193868753}
   m_Layer: 0
   m_Name: NPC Snake
   m_TagString: Untagged
@@ -8277,6 +8305,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193868747}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &193868753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193868747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135975f9b702db8418c9940579385d1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TextureFlipper
+  textureA: {fileID: 2800000, guid: 6624f1092f2983b4db60e146677e362a, type: 3}
+  textureB: {fileID: 2800000, guid: 6793bce9cdbe3314e80e6961343cb88b, type: 3}
 --- !u!1 &217093099 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6014503084441653313, guid: 80d2dd4015d94fe46b6fe5df427fb898, type: 3}
@@ -10298,8 +10340,8 @@ Transform:
   m_GameObject: {fileID: 408467082}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -66.61, y: -3.5400085, z: -112.6}
-  m_LocalScale: {x: 2.8826976, y: 2.8826976, z: 2.8826976}
+  m_LocalPosition: {x: -66.666, y: -4.32, z: -112.6}
+  m_LocalScale: {x: 1.2775539, y: 1.2775539, z: 1.2775539}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 124645883}
@@ -11467,6 +11509,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3492686131601883491, guid: 805fe8520ca8daf4f9855ded306a0ca1, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3492686131601883491, guid: 805fe8520ca8daf4f9855ded306a0ca1, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6a636f10c3514fc4192b46fae54e053a, type: 2}
@@ -11480,7 +11526,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5434789286021956901, guid: 805fe8520ca8daf4f9855ded306a0ca1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.501
+      value: 2.691
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598644369697067967, guid: 805fe8520ca8daf4f9855ded306a0ca1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.534
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11714,7 +11764,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.021219084, y: 0.0066195615, z: 0.033767477}
   m_Center: {x: -6.469837e-10, y: 2.8040828e-10, z: 0.01254502}
---- !u!114 &548409031
+--- !u!114 &548409035
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11726,7 +11776,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1edd750685884e64096ad5e6161b5085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Collectible
-  rotationAngle: {x: 0, y: 100, z: 0}
 --- !u!1 &560945174 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7640558969779515294, guid: 4b2d54e5bdd48624298dba480c21066c, type: 3}
@@ -12096,7 +12145,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.035, y: 0, z: 0}
-  m_LocalScale: {x: 2.3505769, y: 2.3505769, z: 2.3505769}
+  m_LocalScale: {x: 3.1092343, y: 3.1092343, z: 3.1092343}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1509437406}
@@ -12253,7 +12302,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 0}
+  selectedDatabase: {fileID: 11400000, guid: 5b360f34048978c43a2553708c2ff54e, type: 2}
 --- !u!23 &588398629
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15310,6 +15359,7 @@ GameObject:
   - component: {fileID: 855892212}
   - component: {fileID: 855892211}
   - component: {fileID: 855892210}
+  - component: {fileID: 855892214}
   m_Layer: 0
   m_Name: NPC Blob 3
   m_TagString: Untagged
@@ -15426,6 +15476,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855892208}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &855892214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855892208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135975f9b702db8418c9940579385d1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TextureFlipper
+  textureA: {fileID: 2800000, guid: 51f0e6aad51f35c49b1091a9df96c253, type: 3}
+  textureB: {fileID: 2800000, guid: 9f14074d67099574186314921f110d7c, type: 3}
 --- !u!1 &888526658
 GameObject:
   m_ObjectHideFlags: 0
@@ -15887,7 +15951,7 @@ PrefabInstance:
       addedObject: {fileID: 548409030}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9a3dfa6cdc1df1c48941406f7a62a01e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 548409031}
+      addedObject: {fileID: 548409035}
   m_SourcePrefab: {fileID: 100100000, guid: 9a3dfa6cdc1df1c48941406f7a62a01e, type: 3}
 --- !u!1 &944365310
 GameObject:
@@ -26266,7 +26330,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 0}
+  selectedDatabase: {fileID: 11400000, guid: 5b360f34048978c43a2553708c2ff54e, type: 2}
 --- !u!23 &1404598078
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27126,6 +27190,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 80d2dd4015d94fe46b6fe5df427fb898, type: 3}
       insertIndex: -1
       addedObject: {fileID: 72695562}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 80d2dd4015d94fe46b6fe5df427fb898, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 72695564}
     - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: 80d2dd4015d94fe46b6fe5df427fb898, type: 3}
       insertIndex: -1
       addedObject: {fileID: 755648624}
@@ -28153,6 +28220,7 @@ GameObject:
   - component: {fileID: 1509437409}
   - component: {fileID: 1509437408}
   - component: {fileID: 1509437407}
+  - component: {fileID: 1509437411}
   m_Layer: 0
   m_Name: NPC Blob 2
   m_TagString: Untagged
@@ -28169,8 +28237,8 @@ Transform:
   m_GameObject: {fileID: 1509437405}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -54.91, y: -3.5400085, z: -160.15}
-  m_LocalScale: {x: 2.8826976, y: 2.8826976, z: 2.8826976}
+  m_LocalPosition: {x: -55.55, y: -2.43, z: -160.15}
+  m_LocalScale: {x: 4.7936378, y: 4.7936378, z: 4.7936378}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 588398624}
@@ -28269,6 +28337,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509437405}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1509437411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509437405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135975f9b702db8418c9940579385d1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TextureFlipper
+  textureA: {fileID: 2800000, guid: 80fa40187ba51014ea77c9a553052835, type: 3}
+  textureB: {fileID: 2800000, guid: 51f0e6aad51f35c49b1091a9df96c253, type: 3}
 --- !u!1 &1514039828 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -208595431880416365, guid: 80d2dd4015d94fe46b6fe5df427fb898, type: 3}
@@ -29276,6 +29358,7 @@ GameObject:
   - component: {fileID: 1634392560}
   - component: {fileID: 1634392559}
   - component: {fileID: 1634392558}
+  - component: {fileID: 1634392562}
   m_Layer: 0
   m_Name: NPC Shark
   m_TagString: Untagged
@@ -29292,8 +29375,8 @@ Transform:
   m_GameObject: {fileID: 1634392556}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -54.82, y: -3.54, z: -181.67}
-  m_LocalScale: {x: 2.8826976, y: 2.8826976, z: 2.8826976}
+  m_LocalPosition: {x: -54.812, y: -3.54, z: -181.67}
+  m_LocalScale: {x: 3.111872, y: 3.111872, z: 3.111872}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1463486562}
@@ -29392,6 +29475,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634392556}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1634392562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634392556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 135975f9b702db8418c9940579385d1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TextureFlipper
+  textureA: {fileID: 2800000, guid: 20a7d3c24bcf7304584a7ffe9f6f0917, type: 3}
+  textureB: {fileID: 2800000, guid: 05b50ab86397ea84b9470232a176d17a, type: 3}
 --- !u!1 &1637440151
 GameObject:
   m_ObjectHideFlags: 0
@@ -40632,6 +40729,10 @@ PrefabInstance:
       value: 7484.855
       objectReference: {fileID: 0}
     - target: {fileID: 5126527961139664767, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      propertyPath: m_AllowMSAA
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126527961139664767, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: far clip plane
       value: 1000
       objectReference: {fileID: 0}
@@ -40699,6 +40800,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7465301701574439286, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465301701574439286, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      propertyPath: m_RequiresOpaqueTextureOption
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -40727,7 +40836,7 @@ GameObject:
   - component: {fileID: 2095621672}
   - component: {fileID: 2095621673}
   m_Layer: 0
-  m_Name: NPC Lizard
+  m_Name: NPCLizard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -12,7 +12,8 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _UVVDIRECTION1UDIRECTION0_ON
+  - _SPECULAR_SETUP
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords:
   - _BLENDMODE_ALPHA
   - _DISABLE_DECALS
@@ -20,10 +21,11 @@ Material:
   - _DOUBLESIDED_ON
   - _ENABLE_FOG_ON_TRANSPARENT
   - _MATERIAL_FEATURE_TRANSMISSION
-  - _SPECULAR_SETUP
-  - _SURFACE_TYPE_TRANSPARENT
+  - _USE_DISTORTION
+  - _USE_TRANSLUCENCY
+  - _USE_VERTEX_OFFSET
   m_LightmapFlags: 1
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 3002
   stringTagMap:
@@ -33,9 +35,8 @@ Material:
   - TransparentDepthPostpass
   - TransparentBackface
   - RayTracingPrepass
-  - MOTIONVECTORS
-  - TransparentDepthPrepass
   - SHADOWCASTER
+  - TransparentDepthPrepass
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -230,7 +231,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - BackfaceAlpha: 1
     - MacroWaveTessScale: 0.06
     - _AOPower: 1
     - _AddPrecomputedVelocity: 0
@@ -384,6 +384,7 @@ Material:
     - _MaterialTypeMask: 32
     - _MicroWaveNormalScale: 0.07
     - _NMWaterSmoothness: 0.959
+    - _NMWaterSmoothness_far: 0.9
     - _NM_SSSSettings_Water_RAM: 3.35746
     - _NormalScale: 0.49
     - _Occlusion: 0.48
@@ -411,7 +412,6 @@ Material:
     - _SlowCascadeSpeed: 0.15
     - _SlowNormalScale: 0.07
     - _SlowWaterSpeed: 0.5
-    - _SlowWaterTessScale: 0
     - _SmallCascadeAngle: 0.3
     - _SmallCascadeAngleFalloff: 0.5
     - _SmallCascadeFalloff: 80
@@ -427,6 +427,13 @@ Material:
     - _Smoothness: 0.9
     - _Specular: 0.1
     - _SpecularHighlights: 1
+    - _Specular_Depth: 5
+    - _Specular_Depth_Blend: 1
+    - _Specular_Distance: 60
+    - _Specular_Distance_Blend: 4
+    - _Specular_Fresnel_Power: 8
+    - _Specular_Max: 1
+    - _Specular_Min: 0.04
     - _SrcBlend: 5
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -457,6 +464,11 @@ Material:
     - _ToggleSwitch1: 0
     - _Translucency_Direct_Sun_Power: 3
     - _Translucency_Global_Power: 1
+    - _Translucency_Global_Waves_Power: 1
+    - _Translucency_Selfshadow_Reduction: 1
+    - _Translucency_Selfshadow_Reduction_Smooth: 0.65
+    - _Translucency_Shadow_Reduction: 1
+    - _Translucency_Thickness: 2.4
     - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
@@ -465,12 +477,15 @@ Material:
     - _TransparentSortPriority: 2
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 1
+    - _USE_AO_SM: 0
     - _USE_CAUSTIC: 0
+    - _USE_DISTORTION: 1
+    - _USE_TRANSLUCENCY: 1
+    - _USE_VERTEX_OFFSET: 1
     - _UVDirectionV1U0: 1
     - _UVVDirection1UDirection0: 1
     - _Udirection: 0
     - _UseShadowThreshold: 0
-    - _Use_Caustic: 0
     - _Vdirection: 0
     - _WaterAOPower: 1
     - _WaterAlphaMultiply: 0.2
@@ -536,7 +551,6 @@ Material:
     - _FoamColor: {r: 20, g: 20, b: 20, a: 0}
     - _FoamSpeed: {r: -0.001, g: 0.018, b: 0, a: 0}
     - _MacroWaveTiling: {r: 0.05, g: 0.05, b: 0, a: 0}
-    - _MainWaterSpeed: {r: 0.3, g: 0.3, b: 0, a: 0}
     - _MicroWaveTiling: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _NM_SSSSettings_Water_RAM_Asset: {r: 6.815038e+17, g: -4.162254e+31, b: -1.4536819e+38, a: 128896.04}
     - _NoiseSpeed: {r: 1, g: 1, b: 0, a: 0}
@@ -557,10 +571,12 @@ Material:
     - _SmallCascadeTiling: {r: 3, g: 2, b: 0, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
     - _TilingNoise: {r: 0.6, g: 0.6, b: 0, a: 0}
+    - _Translucency_Color: {r: 0.27473766, g: 0.31132048, b: 0.16862726, a: 0}
     - _WaterMainSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _WaterMixSpeed: {r: 0.002, g: 0.002, b: 0, a: 0}
     - _WaterTiling: {r: 20, g: 20, b: 0, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!114 &1817154643839579065
 MonoBehaviour:
   m_ObjectHideFlags: 11

@@ -12,7 +12,6 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - COLOR_GRADING_ON
   - PROPIXELIZER_DITHERING_ON
   - RECEIVE_SHADOWS_ON
   - USE_OBJECT_POSITION_ON
@@ -53,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightingRamp:
-        m_Texture: {fileID: 2800000, guid: b701d30b91d4a7f40b1e3f84dd32b2a3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 211497300d75d8e4b9b3e2913a93e908, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -65,15 +64,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 5e4c681c2e7b0a24792a4ffa094a9913, type: 3}
+        m_Scale: {x: -1.18, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PaletteLUT:
-        m_Texture: {fileID: 2800000, guid: 7d4a58367b919884aad0376ed862cc60, type: 3}
+        m_Texture: {fileID: 2800000, guid: f649cbc58189f5141ad422e49af19117, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_E9C4F4D0_Texture_1:
@@ -106,7 +105,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - COLOR_GRADING: 1
+    - COLOR_GRADING: 0
     - NORMAL_MAP: 0
     - PROPIXELIZER_DITHERING: 1
     - RECEIVE_SHADOWS: 1
@@ -115,14 +114,14 @@ Material:
     - USE_OBJECT_POSITION: 1
     - Vector1_4DFF368: 3
     - _AlphaClip: 0
-    - _AlphaClipThreshold: 0.674
+    - _AlphaClipThreshold: 0.5
     - _Blend: 0
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DiffuseVertexColorWeight: 0.595
+    - _DiffuseVertexColorWeight: 0
     - _DstBlend: 0
-    - _EmissiveVertexColorWeight: 0.333
+    - _EmissiveVertexColorWeight: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -130,8 +129,7 @@ Material:
     - _ID: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _PixelSize: 4
-    - _QueueControl: -1
+    - _PixelSize: 3
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5

@@ -124,32 +124,23 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: -0.0012321472
-      value: 0
-      inSlope: 0.10716628
-      outSlope: 0.10716628
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.09293776
-    - serializedVersion: 3
-      time: 0.888672
-      value: 0.021488681
+      time: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     - serializedVersion: 3
-      time: 0.9359896
-      value: 0.99870884
-      inSlope: 4.80607
-      outSlope: 0.11529615
-      tangentMode: 1
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
       weightedMode: 0
-      inWeight: 0.032207847
-      outWeight: 0.67556524
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -324,7 +315,6 @@ MonoBehaviour:
   noiseSizeZFlowMap: 2
   floatSpeed: 10
   floatSpeedWaterfallMultiplier: 3
-  physicalDensity: 1
   flowLerpDistance: 40
   meshFlowSpeed: 1
   vertexPainterNoiseData:

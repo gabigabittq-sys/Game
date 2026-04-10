@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 699455856d53d7249861c616fa92965d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buoyancy: 90
+  buoyancy: 50
   viscosity: 1
   viscosityAngular: 0.1
   rotateToSpeed: 0

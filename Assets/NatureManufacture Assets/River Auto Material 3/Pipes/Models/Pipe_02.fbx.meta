@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 29fd0466c3b717a42bddaeb3d89e07e1
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 21300
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -47,7 +47,6 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -75,7 +74,6 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -85,7 +83,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human: []
@@ -100,15 +98,14 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 

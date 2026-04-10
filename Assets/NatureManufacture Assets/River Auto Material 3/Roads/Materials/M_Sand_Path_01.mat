@@ -27,8 +27,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: eab0538d9d5746246806a9611c04ac4d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
+  m_ValidKeywords:
   - _ALPHATEST_ON
   - _DENSITY_MODE
   - _DISPLACEMENT_LOCK_TILING_SCALE
@@ -36,13 +35,10 @@ Material:
   - _HEIGHTMAP1
   - _HEIGHT_BASED_BLEND
   - _LAYER_MASK_VERTEX_COLOR_ADD
-  - _MASKMAP
   - _MASKMAP0
   - _MASKMAP1
-  - _NORMALMAP
   - _NORMALMAP0
   - _NORMALMAP1
-  - _NORMALMAP_TANGENT_SPACE
   - _NORMALMAP_TANGENT_SPACE0
   - _NORMALMAP_TANGENT_SPACE1
   - _NORMALMAP_TANGENT_SPACE2
@@ -50,6 +46,10 @@ Material:
   - _TESSELLATION_DISPLACEMENT
   - _TESSELLATION_PHONG
   - _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE
+  m_InvalidKeywords:
+  - _MASKMAP
+  - _NORMALMAP
+  - _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -746,7 +746,6 @@ Material:
     - _UVMappingMaskBlendMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!114 &731586741490170978
 MonoBehaviour:
   m_ObjectHideFlags: 11

@@ -12,14 +12,12 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _USE_AO_SM
+  - _SPECULAR_SETUP
+  - _SURFACE_TYPE_TRANSPARENT
   - _USE_DISTORTION
   - _USE_TRANSLUCENCY
   - _USE_VERTEX_OFFSET
-  - _UVVDIRECTION1UDIRECTION0_ON
-  m_InvalidKeywords:
-  - _SPECULAR_SETUP
-  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
@@ -227,7 +225,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - BackfaceAlpha: 1
     - MacroWaveTessScale: 0.06
     - _AOPower: 1
     - _AddPrecomputedVelocity: 0
@@ -408,7 +405,6 @@ Material:
     - _SlowCascadeSpeed: 0.15
     - _SlowNormalScale: 0.07
     - _SlowWaterSpeed: 0.5
-    - _SlowWaterTessScale: 0
     - _SmallCascadeAngle: 0.3
     - _SmallCascadeAngleFalloff: 0.5
     - _SmallCascadeFalloff: 80
@@ -471,11 +467,6 @@ Material:
     - _UVVDirection1UDirection0: 1
     - _Udirection: 0
     - _UseShadowThreshold: 0
-    - _Use_AO_SM: 1
-    - _Use_Caustic: 0
-    - _Use_Distortion: 1
-    - _Use_Translucency: 1
-    - _Use_Vertex_Offset: 1
     - _Vdirection: 0
     - _WaterAOPower: 1
     - _WaterAlphaMultiply: 0.2
@@ -535,15 +526,16 @@ Material:
     - _DetailAlbedoColor: {r: 1, g: 1, b: 1, a: 0}
     - _Detail_Slope_Speed_Influence: {r: 1, g: 1, b: 0, a: 0}
     - _Details_Slope_Speed_Influence: {r: 1, g: 0, b: 0, a: 0}
-    - _DiffusionProfileAsset: {r: 0.0065936996, g: -1.7619802e-26, b: -9.742697e-30, a: 1.0868426e+35}
+    - _DiffusionProfileAsset: {r: 0.0065936996, g: -1.7619802e-26, b: -9.742697e-30,
+        a: 1.0868426e+35}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FoamColor: {r: 20, g: 20, b: 20, a: 0}
     - _FoamSpeed: {r: -0.001, g: 0.018, b: 0, a: 0}
     - _MacroWaveTiling: {r: 0.05, g: 0.05, b: 0, a: 0}
-    - _MainWaterSpeed: {r: 0.3, g: 0.3, b: 0, a: 0}
     - _MicroWaveTiling: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _NM_SSSSettings_Water_RAM_Asset: {r: 6.815038e+17, g: -4.162254e+31, b: -1.4536819e+38, a: 128896.04}
+    - _NM_SSSSettings_Water_RAM_Asset: {r: 6.815038e+17, g: -4.162254e+31, b: -1.4536819e+38,
+        a: 128896.04}
     - _NoiseSpeed: {r: 1, g: 1, b: 0, a: 0}
     - _NoiseSpeed1: {r: 1, g: 1, b: 0, a: 0}
     - _NoiseSpeed2: {r: 1, g: 1, b: 0, a: 0}

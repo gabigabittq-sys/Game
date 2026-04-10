@@ -43,15 +43,14 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _SPECULAR_SETUP
+  - _SURFACE_TYPE_TRANSPARENT
   - _USE_CAUSTIC
-  - _UVVDIRECTION1UDIRECTION0_ON
   m_InvalidKeywords:
   - _BLENDMODE_ALPHA
   - _DISABLE_DECALS
   - _ENABLE_FOG_ON_TRANSPARENT
   - _MATERIAL_FEATURE_TRANSMISSION
-  - _SPECULAR_SETUP
-  - _SURFACE_TYPE_TRANSPARENT
   - _TESSELLATION_PHONG
   - _TRANSPARENT_WRITES_MOTION_VEC
   m_LightmapFlags: 1
@@ -345,10 +344,10 @@ Material:
     - _Caustic_Tiling: 0.05
     - _Caustic_Triplanar_Hardness: 3
     - _ChromaticAberration: 0.1
-    - _CleanFalloffMultiply: 2.6
-    - _CleanFalloffPower: 0.3
+    - _CleanFalloffMultiply: 4
+    - _CleanFalloffPower: 0.1
     - _Clean_Background_Exposure: 0.452
-    - _Clean_Water_Background_Brightness: 0.9
+    - _Clean_Water_Background_Brightness: 2
     - _ClearWaterFalloff: 1.15
     - _ConservativeDepthOffsetEnable: 0
     - _Cull: 2
@@ -364,8 +363,8 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 0
     - _DstBlend: 10
-    - _EdgeFalloffMultiply: 1.24
-    - _EdgeFalloffPower: 0.53
+    - _EdgeFalloffMultiply: 0.53
+    - _EdgeFalloffPower: 0.4
     - _EdgeLength: 24
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
@@ -399,7 +398,7 @@ Material:
     - _Foam_Flow_UV_Refresh_Speed: 0.15
     - _Foam_Gerstner_Speed_Power: 1
     - _Foam_Mask_Power: 2
-    - _Foam_Specular: 0
+    - _Foam_Specular: 0.5
     - _Foam_Translucency_1: 1
     - _Foam_Translucency_Hardness: 30
     - _Foamfalloff: -4
@@ -428,6 +427,7 @@ Material:
     - _NMDistortion: 0.1
     - _NMFoamSmoothness: 0
     - _NMWaterSmoothness: 0.9
+    - _NMWaterSmoothness_far: 0.9
     - _NM_SSSSettings_Water_RAM: 3.35746
     - _Noise_Flow_UV_Refresh_Speed: 1
     - _NormalScale: 0.3
@@ -448,6 +448,9 @@ Material:
     - _Polar_Wave_Silent_Area_Angle: 77
     - _Polar_Wave_Silent_Area_Angle_Hardness: 1
     - _Polar_Wave_Swash_Size: 1
+    - _Polar_and_Small_Waves_Friction_Depth_Mask: 3.7
+    - _Polar_and_Small_Waves_Friction_Depth_Mask_Power: 2.06
+    - _Polar_and_Small_Waves_Friction_Speed_Reduction: 0.99
     - _Pow: 5
     - _QueueControl: 1
     - _QueueOffset: 0
@@ -462,7 +465,7 @@ Material:
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
     - _Sea_Foam_Texture_Falloff: 1.5
-    - _Sea_Foam_Texture_Normal_Scale: 1
+    - _Sea_Foam_Texture_Normal_Scale: 4
     - _Sea_Gersner_Waves_Foam_Mask_Offset: 0.48
     - _Sea_Gersner_Waves_Foam_Multiply: 0.13
     - _Sea_Gersner_Waves_Foam_Power: 4.49
@@ -480,13 +483,13 @@ Material:
     - _Sea_Waves_Foam_Mask_Multiply: 0.56
     - _Sea_Waves_Foam_Mask_Offset: 0.3
     - _Sea_Waves_Foam_Mask_Power: 1.78
-    - _Sea_Waves_Foam_Multiply: 1.54
+    - _Sea_Waves_Foam_Multiply: 0.13
     - _Sea_Waves_Foam_Power: 4.49
     - _ShalowDepth: 0.7
     - _ShalowFalloff: -1.14
-    - _ShalowFalloffMultiply: 0.6
-    - _ShalowFalloffPower: 1.66
-    - _Shore_Translucency_Multiply: 0.1
+    - _ShalowFalloffMultiply: 1.49
+    - _ShalowFalloffPower: 1.08
+    - _Shore_Translucency_Multiply: 0.15
     - _Shore_Translucency_Power: 1
     - _Side_Back_Foam_Gerstner_Waves_Multiply: 1
     - _Side_Back_Foam_Gerstner_Waves_Offset: 0.1
@@ -506,11 +509,11 @@ Material:
     - _Side_Foam_Gerstner_Waves_Multiply: 1
     - _Side_Foam_Gerstner_Waves_Offset: -0.13
     - _Side_Foam_Gerstner_Waves_Power: 3.46
-    - _Side_Foam_Mask_Normal_Scale: 1
+    - _Side_Foam_Mask_Normal_Scale: 6
     - _Side_Foam_Mask_Power: 3.3
     - _Side_Foam_Perlin_Multiply: 0.29
     - _Side_Foam_Perlin_Power: 0.08
-    - _Side_Foam_Perlin_Tiling: 0.3333333
+    - _Side_Foam_Perlin_Tiling: 1
     - _Side_Foam_Wave_Backs_Multiply: 0
     - _Side_Foam_Wave_Backs_Offset: 0
     - _Side_Foam_Waves_Multiply: 0
@@ -569,12 +572,17 @@ Material:
     - _Small_Wave_Shore_Height_Multiply: 3
     - _Small_Wave_Silent_Area_Angle: 200
     - _Small_Wave_Silent_Area_Angle_Hardness: 2
-    - _Small_Wave_Swash_Size: 0.4
+    - _Small_Wave_Swash_Size: 0.2
     - _Small_Wave_Wave_Noise_Power: 1.18
     - _Small_Waves_Chaos: 0.4
     - _Smoothness: 0.9
     - _Specular: 0.1
     - _SpecularHighlights: 1
+    - _Specular_Depth: 5
+    - _Specular_Depth_Blend: 1
+    - _Specular_Distance: 60
+    - _Specular_Distance_Blend: 4
+    - _Specular_Fresnel_Power: 4
     - _SrcBlend: 5
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -605,8 +613,13 @@ Material:
     - _Time_Offset: 0
     - _ToggleSwitch1: 0
     - _Translucency_Direct_Sun_Power: 1
-    - _Translucency_Global_Power: 0.4
+    - _Translucency_Global_Power: 3
+    - _Translucency_Global_Waves_Power: 0.2
+    - _Translucency_Selfshadow_Reduction: 1
+    - _Translucency_Selfshadow_Reduction_Smooth: 0.65
+    - _Translucency_Shadow_Reduction: 1
     - _Translucency_Sun_Power: 85
+    - _Translucency_Thickness: 2.2
     - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
@@ -617,19 +630,18 @@ Material:
     - _TransparentZWrite: 1
     - _USE_CAUSTIC: 1
     - _UVDirectionV1U0: 1
-    - _UVVDirection1UDirection0: 1
+    - _UVVDirection1UDirection0: 0
     - _Udirection: 0
     - _UseShadowThreshold: 0
-    - _Use_Caustic: 1
     - _Vdirection: 0
-    - _WaterAlphaMultiply: 0.15
+    - _WaterAlphaMultiply: 0.19
     - _WaterAlphaPower: 1
     - _WaterDeepTranslucencyPower: 0.1
     - _WaterDepth: 0.421
     - _WaterFallOfBorder: 9.32
     - _WaterFalloff: 0.143
     - _WaterFalloffBorder: 8.46
-    - _WaterFlowUVRefresSpeed: 0.2
+    - _WaterFlowUVRefresSpeed: 0.026
     - _WaterMetalic: 0.081
     - _WaterNormalScale: 0.5
     - _WaterShalowDepth: 3.85
@@ -650,6 +662,9 @@ Material:
     - _Water_Slope_Power: 2
     - _Water_Specular_Close: 0.01
     - _Water_Specular_Far: 0.255
+    - _Water_Specular_Max: 1
+    - _Water_Specular_Min: 0.08
+    - _Water_Waves_Flatten_Mask_Power: 2.48
     - _WaveTranslucencyFallOffDistance: 140
     - _WaveTranslucencyHardness: 1.89
     - _WaveTranslucencyMultiply: 0.01
@@ -669,7 +684,6 @@ Material:
     - _offset: -0.4
     - _test: 0.35
     m_Colors:
-    - WindMicroWaveTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _BigCascadeColor: {r: 20, g: 20, b: 20, a: 0}
     - _BigCascadeMainSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _BigCascadeMixSpeed: {r: 0.01, g: 0.04, b: 0, a: 0}
@@ -685,7 +699,7 @@ Material:
     - _Color0: {r: 0, g: 0.6749488, b: 0.8088235, a: 0}
     - _Color1: {r: 0, g: 0.048731543, b: 0.22794023, a: 0}
     - _Crest_Side_Foam_Speed: {r: 0.4, g: 0.3, b: 0, a: 0}
-    - _DeepColor: {r: 0.004049484, g: 0.012163146, b: 0.06603769, a: 0}
+    - _DeepColor: {r: 0.08615164, g: 0.09425061, b: 0.15094337, a: 0}
     - _DiffusionProfileAsset: {r: -3.217784e+18, g: -3.299812e+22, b: -1.6216384e+24, a: 6.6224394e+13}
     - _DoubleSidedConstants: {r: -1, g: -1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
@@ -730,7 +744,7 @@ Material:
     - _Sea_Gerstner_Start_X_Flatten_Point_Y: {r: 7, g: 5, b: 0, a: 0}
     - _Sea_Wave_Depth_Flatten_Start_X_End_Y: {r: 7, g: 5, b: 0, a: 0}
     - _Sea_Wave_Noise_Tiling: {r: 1.18, g: 1.78, b: 0, a: 0}
-    - _ShalowColor: {r: 0.34509805, g: 0.44704273, b: 0.47058824, a: 0}
+    - _ShalowColor: {r: 0.21106261, g: 0.27719212, b: 0.29245278, a: 0}
     - _Shode_Foam_Line_Depth_min_max_RG_Value_Mask_BA: {r: 0, g: 0, b: 0, a: 0}
     - _Shore_Foam_Line_Depth_min_max_RG_Value_Mask_BA: {r: -0.25, g: 2.26, b: 0, a: 1}
     - _Side_Foam_Color: {r: 1.55, g: 1.55, b: 1.55, a: 0}
@@ -742,7 +756,7 @@ Material:
     - _Slope_Speed_Influence: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _SlowCascadeColor: {r: 20, g: 20, b: 20, a: 0}
     - _SlowWaterMixSpeed: {r: 0.3, g: -0.5, b: 0, a: 0}
-    - _SlowWaterSpeed: {r: 0.33, g: 0.33, b: 0, a: 0}
+    - _SlowWaterSpeed: {r: -0.74, g: -0.75, b: 0, a: 0}
     - _SlowWaterTiling: {r: 2, g: 2, b: 0, a: 0}
     - _SmallCascadeColor: {r: 20, g: 20, b: 20, a: 0}
     - _SmallCascadeMainSpeed: {r: 0.3, g: 0.3, b: 0, a: 0}
@@ -755,6 +769,7 @@ Material:
     - _Small_Wave_Noise_Tiling: {r: 0.54, g: 1.06, b: 0, a: 0}
     - _Small_Wave_Shore_Depth_Start_X_Flatten_Point_Y: {r: 6, g: 1.4, b: 0, a: 0}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Translucency_Color: {r: 0.34509802, g: 0.47058815, b: 0.4405095, a: 0}
     - _Vector2: {r: 0, g: 0.07, b: 0, a: 0}
     - _Vector2_1: {r: 1.09, g: 0, b: 0, a: 0}
     - _Vector3: {r: 1, g: 1, b: 1, a: 0}
@@ -771,3 +786,4 @@ Material:
     - _cAUSTIC_cOLOR: {r: 0.9716981, g: 0.0229174, b: 0.0229174, a: 0}
     - _polar_Vector2_2: {r: 0.3, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

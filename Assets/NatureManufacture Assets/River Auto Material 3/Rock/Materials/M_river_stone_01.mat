@@ -8,28 +8,25 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_river_stone_01
-  m_Shader: {fileID: 4800000, guid: 0c3250378db487848854884ac1f2ec9b, type: 3}
+  m_Shader: {fileID: 4800000, guid: 1107f6775eaeae64eb7e411454e64fe4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
+  m_ValidKeywords:
   - _ALPHATEST_ON
-  - _COVERUSEPLANARUV_ON
-  - _COVER_UV0_UV2_ON
-  - _DISABLE_SSR_TRANSPARENT
-  - _UV0_UV2_ON
+  - _WETNESS_T_HEAT_F
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap:
     MotionVector: User
+    RenderType: TransparentCutout
   disabledShaderPasses:
   - TransparentBackface
-  - MOTIONVECTORS
+  - RayTracingPrepass
   - TransparentDepthPrepass
   - TransparentDepthPostpass
-  - RayTracingPrepass
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -94,6 +91,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 8d5e9587696fe6b4a81bc32f93e24fa1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Masks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetalicRAmbientOcclusionG:
         m_Texture: {fileID: 2800000, guid: 9913a3775ebeba445a187e8f037177a3, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -106,6 +107,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -115,10 +120,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _texcoord3:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -136,6 +137,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - Emission_Noise_UV0_UV3: 1
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 1
     - _AlphaCutoff: 0
@@ -147,6 +149,8 @@ Material:
     - _AmbientOcclusionPower: 1
     - _BaseAORemapMax: 1
     - _BaseAORemapMin: 0
+    - _BaseEmissionMaskIntensivity: 0
+    - _BaseEmissionMaskTreshold: 1
     - _BaseMetallic: 1
     - _BaseNormalScale: 1
     - _BaseSmoothnessRemapMax: 1
@@ -160,6 +164,8 @@ Material:
     - _ConservativeDepthOffsetEnable: 0
     - _CoverAORemapMax: 1
     - _CoverAORemapMin: 0
+    - _CoverEmissionMaskIntensivity: 0
+    - _CoverEmissionMaskTreshold: 1
     - _CoverHardness: 5
     - _CoverHeightMapMax: 1
     - _CoverHeightMapMin: 0
@@ -173,10 +179,11 @@ Material:
     - _CoverUsePlanarUV: 1
     - _Cover_Amount: 0
     - _Cover_Amount_Grow_Speed: 3
+    - _Cover_Mask_A_Remap_Max: 1
+    - _Cover_Mask_A_Remap_Min: 0
     - _Cover_Max_Angle: 35
     - _Cover_Min_Height: -10000
     - _Cover_Min_Height_Blending: 1
-    - _Cover_UV0_UV2: 1
     - _Cull: 2
     - _CullMode: 2
     - _CullModeForward: 2
@@ -191,11 +198,17 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
+    - _EmissionNoiseMultiply: 1
+    - _EmissionNoisePower: 2.71
+    - _EmissionNoiseUsePlanarUV: 0
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _HeightMax: 1
+    - _HeightMin: 0
+    - _HeightOffset: 0
     - _MetalicPower: 0
     - _Metallic: 0
     - _MetallicPower: 0.281
@@ -203,7 +216,6 @@ Material:
     - _OcclusionStrength: 1
     - _OpaqueCullMode: 2
     - _Parallax: 0.02
-    - _PlanarUV1: 0
     - _QueueControl: 1
     - _QueueOffset: 0
     - _RayTracing: 0
@@ -213,6 +225,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
+    - _RimLightPower: 4
     - _SmoothnessPower: 1
     - _SmoothnessTextureChannel: 0
     - _SmothnessPower: 1
@@ -238,10 +251,14 @@ Material:
     - _TransparentSortPriority: 0
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
+    - _USEBaseHeightT: 1
+    - _USECoverHeightT: 1
     - _USEDYNAMICCOVERTSTATICMASKF: 0
-    - _UV0_UV2: 1
     - _UVSec: 0
     - _UseShadowThreshold: 0
+    - _VertexColorBBlendStrenght: 1
+    - _VertexColorGBlendStrenght: 1
+    - _WETNESS_T_HEAT_F: 1
     - _WetSmoothness: 0.6
     - _WorkflowMode: 1
     - _ZTest: 4
@@ -260,5 +277,10 @@ Material:
     - _DetailTilingOffset: {r: 1, g: 1, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Emission_Noise_Tiling_and_Offset: {r: 1, g: 1, b: 0, a: 0}
+    - _LavaEmissionColor: {r: 1, g: 0, b: 0, a: 0}
+    - _NoiseSpeed: {r: 0.001, g: 0.005, b: 0, a: 0}
+    - _RimColor: {r: 766.9961, g: 12.04706, b: 0, a: 0}
     - _WetColor: {r: 0.6691177, g: 0.6691177, b: 0.6691177, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

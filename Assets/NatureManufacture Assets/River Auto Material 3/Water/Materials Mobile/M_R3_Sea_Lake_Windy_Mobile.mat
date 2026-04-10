@@ -43,14 +43,13 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _SPECULAR_SETUP
+  - _SURFACE_TYPE_TRANSPARENT
   - _USE_CAUSTIC
   - _USE_DISTORTION
   - _USE_TRANSLUCENCY
   - _USE_VERTEX_OFFSET
-  - _UVVDIRECTION1UDIRECTION0_ON
-  m_InvalidKeywords:
-  - _SPECULAR_SETUP
-  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -511,7 +510,7 @@ Material:
     - _Side_Foam_Mask_Power: 3.3
     - _Side_Foam_Perlin_Multiply: 0.29
     - _Side_Foam_Perlin_Power: 0.08
-    - _Side_Foam_Perlin_Tiling: 0.3333333
+    - _Side_Foam_Perlin_Tiling: 1
     - _Side_Foam_Wave_Backs_Multiply: 0
     - _Side_Foam_Wave_Backs_Offset: 0
     - _Side_Foam_Waves_Multiply: 0
@@ -624,10 +623,6 @@ Material:
     - _UVVDirection1UDirection0: 1
     - _Udirection: 0
     - _UseShadowThreshold: 0
-    - _Use_Caustic: 1
-    - _Use_Distortion: 1
-    - _Use_Translucency: 1
-    - _Use_Vertex_Offset: 1
     - _Vdirection: 0
     - _WaterAlphaMultiply: 0.15
     - _WaterAlphaPower: 1
@@ -676,16 +671,19 @@ Material:
     - _offset: -0.4
     - _test: 0.35
     m_Colors:
-    - WindMicroWaveTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _BigCascadeColor: {r: 20, g: 20, b: 20, a: 0}
     - _BigCascadeMainSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _BigCascadeMixSpeed: {r: 0.01, g: 0.04, b: 0, a: 0}
     - _BigCascadeTiling: {r: 5, g: 4, b: 0, a: 0}
     - _Big_Gerstner_Noise_Tiling: {r: 0.19, g: 0.53, b: 0, a: 0}
-    - _Big_Wave_Gerstner_Direction_1_X_Y_Z_stepness_W_scale: {r: 0, g: 0, b: 0.07, a: 27}
-    - _Big_Wave_Gerstner_Direction_1_X_Y_direction_Z_stepness_W_scale: {r: 0, g: 30, b: 0.4, a: 37}
-    - _Big_Wave_Gerstner_Direction_2_X_Y_Z_stepness_W_scale: {r: 0, g: 0, b: 0.1, a: 30}
-    - _Big_Wave_Gerstner_Direction_2_X_Y_direction_Z_stepness_W_scale: {r: 0, g: -30, b: 0.4, a: 40}
+    - _Big_Wave_Gerstner_Direction_1_X_Y_Z_stepness_W_scale: {r: 0, g: 0, b: 0.07,
+        a: 27}
+    - _Big_Wave_Gerstner_Direction_1_X_Y_direction_Z_stepness_W_scale: {r: 0, g: 30,
+        b: 0.4, a: 37}
+    - _Big_Wave_Gerstner_Direction_2_X_Y_Z_stepness_W_scale: {r: 0, g: 0, b: 0.1,
+        a: 30}
+    - _Big_Wave_Gerstner_Direction_2_X_Y_direction_Z_stepness_W_scale: {r: 0, g: -30,
+        b: 0.4, a: 40}
     - _CascadeColor: {r: 20, g: 20, b: 20, a: 0}
     - _Caustic_Color: {r: 1, g: 1, b: 1, a: 0.007843138}
     - _Color: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 0}
@@ -693,7 +691,8 @@ Material:
     - _Color1: {r: 0, g: 0.048731543, b: 0.22794023, a: 0}
     - _Crest_Side_Foam_Speed: {r: 0.4, g: 0.3, b: 0, a: 0}
     - _DeepColor: {r: 0.004049484, g: 0.012163146, b: 0.06603769, a: 0}
-    - _DiffusionProfileAsset: {r: -3.217784e+18, g: -3.299812e+22, b: -1.6216384e+24, a: 6.6224394e+13}
+    - _DiffusionProfileAsset: {r: -3.217784e+18, g: -3.299812e+22, b: -1.6216384e+24,
+        a: 6.6224394e+13}
     - _DoubleSidedConstants: {r: -1, g: -1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FoamColor: {r: 100, g: 100, b: 100, a: 0}
@@ -717,12 +716,14 @@ Material:
     - _MacroWaveTiling: {r: 0.02, g: 0.02, b: 0, a: 0}
     - _MicroWaveNRMTiling: {r: 20, g: 20, b: 0, a: 0}
     - _MicroWaveTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
-    - _NM_SSSSettings_Water_RAM_Asset: {r: 6.815038e+17, g: -4.162254e+31, b: -1.4536819e+38, a: 128896.04}
+    - _NM_SSSSettings_Water_RAM_Asset: {r: 6.815038e+17, g: -4.162254e+31, b: -1.4536819e+38,
+        a: 128896.04}
     - _NoiseSpeed: {r: 99, g: 99, b: 0, a: 0}
     - _NoiseTiling: {r: 6, g: 6, b: 0, a: 0}
     - _Ocean_Gerstner_Start_X_Flatten_Point_Y: {r: 9999, g: 5, b: 0, a: 0}
     - _Polar_Gerstner_Range_X_Break_Point_Y: {r: 1, g: 0.3, b: 0, a: 0}
-    - _Polar_Gerstner_Range_X_Break_Point_Y_Shore_Multiply_Z: {r: 5, g: 0.1, b: 2, a: 0}
+    - _Polar_Gerstner_Range_X_Break_Point_Y_Shore_Multiply_Z: {r: 5, g: 0.1, b: 2,
+        a: 0}
     - _Polar_Gerstner_Shore_Bump_X_Border_Y: {r: 4, g: 0.1, b: 0, a: 0}
     - _Polar_Gerstner_Shore_Bump_X_Break_Flaten_Y: {r: 4, g: 1, b: 0, a: 0}
     - _Polar_Gerstner_Start_X_Break_Point_Y: {r: 3, g: 0.2, b: 0, a: 0}
