@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: 827328da365e7c045905bd5c2492d7bd
-AssetOrigin:
-  serializedVersion: 1
-  productId: 348356
-  packageName: "Wooden Park Bench \u2013 Game Ready 3D Model"
-  packageVersion: 1.0
-  assetPath: Assets/WoodenParkBench/Textures/wood-texture_00015.png
-  uploadId: 849116
+guid: 0124132addd77d14383ebf15d865ce90
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -14,7 +7,7 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-    sRGBTexture: 0
+    sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -61,7 +54,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 1
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
